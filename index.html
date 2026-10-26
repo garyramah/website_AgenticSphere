@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AgenticSphere.ai // The Name of the Realm</title>
+<meta name="description" content="The biosphere is the realm of life. The AgenticSphere is the realm of agents — the whole new environment where agents act, the sum of every agent's reachable world.">
+<style>
+  :root{
+    --paper:#f7f1e3; --panel:#fffdf6; --line:#ddd2b8;
+    --ink:#1f2937; --text:#4b5563; --dim:#9a8f76;
+    --accent:#1e40af; --gold:#b45309;
+    --serif:Georgia,"Times New Roman",serif;
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+    --mono:"SF Mono",Menlo,Consolas,"Courier New",monospace;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--paper);color:var(--text);font-family:var(--sans);line-height:1.65;padding:0 1.5rem 3rem}
+  .wrap{max-width:960px;margin:0 auto}
+  header{border-bottom:1px solid var(--line);padding:1.6rem 0;display:flex;justify-content:space-between;align-items:flex-start;gap:1rem;flex-wrap:wrap}
+  .wordmark{font-family:var(--serif);font-size:1.6rem;font-weight:700;letter-spacing:-.01em;color:var(--ink)}
+  .wordmark span{color:var(--accent)}
+  .tagline{font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;color:var(--dim);margin-top:.2rem}
+  .badge{font-family:var(--mono);font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);border:1px solid var(--line);padding:.4rem .7rem;white-space:nowrap}
+  .hero{padding:4rem 0 2rem;max-width:780px}
+  .eyebrow{font-family:var(--mono);font-size:.78rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin-bottom:1.2rem}
+  h1{font-family:var(--serif);color:var(--ink);font-size:clamp(2.2rem,5vw,3.6rem);line-height:1.12;letter-spacing:-.01em;margin-bottom:1.4rem}
+  h1 span{color:var(--accent)}
+  .lead{font-size:1.12rem;max-width:700px}
+  .lead b{color:var(--ink)}
+  h2{font-family:var(--serif);color:var(--ink);font-size:1.6rem;margin:3.5rem 0 .5rem}
+  .sub{font-size:1rem;max-width:700px;margin-bottom:1.6rem}
+  .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}
+  @media(max-width:760px){.grid3{grid-template-columns:1fr}}
+  .card{background:var(--panel);border:1px solid var(--line);padding:1.5rem}
+  .card h3{font-family:var(--serif);color:var(--ink);font-size:1.05rem;margin-bottom:.4rem}
+  .card p{font-size:.92rem}
+  .card .kicker{font-family:var(--mono);font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);margin-bottom:.5rem}
+  .sketch{background:var(--panel);border:1px solid var(--line);padding:1.5rem;text-align:center}
+  .sketch svg{max-width:100%;height:auto}
+  .cap{font-size:.8rem;color:var(--dim);margin-top:.6rem}
+  .bigline{font-family:var(--serif);font-size:clamp(1.4rem,3vw,2rem);color:var(--ink);line-height:1.35;text-align:center;padding:2.5rem 1rem 1rem;max-width:720px;margin:0 auto}
+  .bigline span{color:var(--accent)}
+  .cta{background:var(--panel);border:1px solid var(--line);padding:2.4rem;text-align:center;margin-top:3rem}
+  .cta h3{font-family:var(--serif);color:var(--ink);font-size:1.5rem;margin-bottom:.5rem}
+  .cta p{max-width:500px;margin:0 auto 1.4rem;font-size:.95rem}
+  .cta form{display:flex;gap:.6rem;justify-content:center;flex-wrap:wrap}
+  .cta input{padding:.7rem 1rem;border-radius:4px;border:1px solid var(--line);background:#fff;min-width:240px;font-size:.95rem}
+  .btn{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;padding:.7rem 1.4rem;border-radius:4px;font-weight:700;font-size:.95rem;border:none;cursor:pointer}
+  .note{font-size:.78rem;color:var(--dim);margin-top:1rem}
+  footer{margin-top:3rem;border-top:1px solid var(--line);padding-top:1.2rem;font-family:var(--mono);font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--dim);display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div>
+      <div class="wordmark">AGENTIC<span>SPHERE</span>.AI</div>
+      <div class="tagline">The name of the realm</div>
+    </div>
+    <div class="badge">Atlas in progress</div>
+  </header>
+
+  <section class="hero">
+    <p class="eyebrow">The biosphere is the realm of life</p>
+    <h1>The <span>AgenticSphere</span> is the realm of agents.</h1>
+    <p class="lead">The whole new environment where agents act — the sum of every agent&rsquo;s reachable world: the tools it can touch, the data it can read, the systems it can move, the chains it can compose. <b>This is the territory. The authority map charts it. This page names it — and sets the standard for mapping it.</b></p>
+  </section>
+
+  <div class="sketch">
+    <svg viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Sketch of overlapping agent spheres">
+      <circle cx="200" cy="150" r="110" fill="none" stroke="#1e40af" stroke-width="2" stroke-dasharray="6 4"/>
+      <circle cx="330" cy="130" r="90" fill="none" stroke="#b45309" stroke-width="2" stroke-dasharray="6 4"/>
+      <circle cx="430" cy="170" r="100" fill="none" stroke="#1e40af" stroke-width="2" stroke-dasharray="6 4"/>
+      <text x="200" y="150" text-anchor="middle" font-family="Georgia,serif" font-size="15" fill="#1f2937">one agent&rsquo;s</text>
+      <text x="200" y="170" text-anchor="middle" font-family="Georgia,serif" font-size="15" fill="#1f2937">reachable world</text>
+      <text x="430" y="170" text-anchor="middle" font-family="Georgia,serif" font-size="15" fill="#1f2937">another&rsquo;s</text>
+      <text x="320" y="285" text-anchor="middle" font-family="Georgia,serif" font-size="14" fill="#4b5563">where spheres overlap, authority composes</text>
+    </svg>
+    <p class="cap">First sketch, not a survey. The realm is named; the mapping is the work.</p>
+  </div>
+
+  <h2>What the realm contains</h2>
+  <div class="grid3">
+    <div class="card">
+      <div class="kicker">The inhabitants</div>
+      <h3>Every agent that acts</h3>
+      <p>Assistants, daemons, fleets, services — everything that acts on someone&rsquo;s behalf, with or without them watching. The realm is defined by action, not by vendor.</p>
+    </div>
+    <div class="card">
+      <div class="kicker">The edges</div>
+      <h3>Where authority ends</h3>
+      <p>Every sphere has an edge: the boundary of what an agent may reach. Where spheres overlap, authority composes — and that composition is where the realm gets interesting, and dangerous.</p>
+    </div>
+    <div class="card">
+      <div class="kicker">The weather</div>
+      <h3>Drift, moving through</h3>
+      <p>Overreach patterns, shared defaults, quiet exceedances — weather fronts that cross the whole realm at once. The Lighthouse watches this weather and warns of it. The Sphere is the sky it moves through.</p>
+    </div>
+  </div>
+
+  <h2>The map and the territory</h2>
+  <p class="sub">The authority map charts who may reach what, and how grants compose across hops. The sphere is the territory that map covers. Neither replaces the other: a map without a territory is a diagram, and a territory without a map is a wilderness. The atlas project is the work of keeping the two honest to each other — mapping what is actually reachable, not what was intended to be.</p>
+
+  <p class="bigline">A realm-name is <span>earned by coverage</span>.<br>This page names the realm. The mapping earns it.</p>
+
+  <div class="cta">
+    <h3>Follow the mapping.</h3>
+    <p>As the realm gets charted — its inhabitants, its edges, its weather — the atlas grows here.</p>
+    <form onsubmit="return false;">
+      <input type="email" placeholder="Email address" aria-label="Email address">
+      <button class="btn" type="submit">Follow</button>
+    </form>
+    <p class="note">Concept page — this form is a preview and doesn&rsquo;t submit yet. The realm is named, not yet mapped.</p>
+  </div>
+
+  <footer>
+    <span>AgenticSphere.ai · The realm, named</span>
+    <span>Part of Agentics Ventures</span>
+  </footer>
+
+</div>
+</body>
+</html>
